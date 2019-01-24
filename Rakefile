@@ -15,5 +15,9 @@ namespace :farewell do
   task :goodbye do
     puts "goodbye from Rake!"
   end
+  desc 'outputs psych! to the terminal'
+  task :hello do
+    puts "psych!"
+  end
 end
 
